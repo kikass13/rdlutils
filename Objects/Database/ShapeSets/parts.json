@@ -1,0 +1,67 @@
+{
+   "partList" : [
+        {
+			"uuid": "63e23096-9db6-418d-895e-9cdf11950765",
+			"renderable": {
+				"lodList": [ 
+					 {
+						"subMeshList" : [
+                            {
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/wconverter_dif.png",
+									"$MOD_DATA/Objects/Textures/base_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material" : "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/block_off.obj",
+						"pose0": "$MOD_DATA/Objects/Mesh/block_on.obj"
+					}
+				]
+			},
+            "scripted" : 
+			{
+				"filename": "$MOD_DATA/Scripts/wconverter.lua",
+				"classname": "Xesau_WConverter"
+			},
+			"color": "e2df2f",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 500.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z-Y+Y-X+X",			
+			"rotationSet": "PropYZ"
+		},
+		{
+			"uuid": "df232b1e-bf34-4f59-a7b7-af8fb1fb6052",
+			"renderable": {
+				"lodList": [ 
+					 {
+						"subMeshList" : [
+                            {
+								"textureList":
+								[
+									"$MOD_DATA/Objects/Textures/UniTex2_dif.png",
+									"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+								],
+								"material" : "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/coupler.obj"
+					}
+				]
+			},
+            "scripted" : 
+			{
+				"filename": "$MOD_DATA/Scripts/coupler.lua",
+				"classname": "RDLCoupler"
+			},
+			"color": "e2df2f",
+			"box": { "x": 1, "y": 2, "z": 1 },
+			"density": 500.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z-Y+Y-X+X",			
+			"rotationSet": "PropY"
+		}
+    ]
+}

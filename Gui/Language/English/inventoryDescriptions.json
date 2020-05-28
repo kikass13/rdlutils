@@ -1,0 +1,11 @@
+{
+    "63e23096-9db6-418d-895e-9cdf11950765": {
+        "title": "W Converter",
+        "description": "Connect a driver seat to this block. When you press [W] on the drivers seat, this block will emit a logic impulse. You can connect this block to for example a thruster."
+    },
+
+    "df232b1e-bf34-4f59-a7b7-af8fb1fb6052": {
+        "title": "Coupler",
+        "description": "Do some coupling magic"
+    }
+}
